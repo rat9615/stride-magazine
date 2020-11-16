@@ -31,6 +31,13 @@ body {
   color: #dddddd;
   opacity: 1;
 }
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.image {
+  margin-bottom: 4rem;
+}
 /*     General overwrite     */
 a {
   color: #2c93ff;
@@ -165,15 +172,20 @@ h3 .small {
 }
 
 .btn {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  width: 100%;
   border-width: 2px;
   background-color: rgba(0, 0, 0, 0);
-  font-weight: 400;
   opacity: 0.8;
-  padding: 8px 16px;
+  padding: 10px 20px;
+  margin-bottom: 2rem;
 }
 .btn-round {
-  border-width: 1px;
-  border-radius: 30px !important;
+  border-width: 4px;
+  border-radius: 8px !important;
   opacity: 0.79;
   padding: 9px 18px;
 }
@@ -201,8 +213,8 @@ h3 .small {
   border-color: #999999;
 }
 .btn-primary {
-  color: #3472f7;
-  border-color: #3472f7;
+  color: #ff4c65;
+  border-color: #ff4c65;
 }
 .btn-info {
   color: #2c93ff;
@@ -967,7 +979,6 @@ fieldset[disabled] .btn-warning.active {
   position: relative;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-  margin-top: 150px;
   z-index: 3;
 }
 .main .logo.cursive {
@@ -979,15 +990,18 @@ fieldset[disabled] .btn-warning.active {
   z-index: 4;
 }
 .main .motto {
-  min-height: 140px;
+  font-family: 'Infini Regular';
+  margin-bottom: 6rem;
 }
 .main .motto,
 .main .subscribe .info-text {
-  font-size: 28px;
-  color: #ffffff;
+  font-size: 5vw;
+  font-family: 'Infini Regular';
+  font-style: italic;
+  color: #f8f8f8;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .main .subscribe .info-text {
   font-size: 18px;
@@ -1172,4 +1186,29 @@ fieldset[disabled] .btn-warning.active {
   font-weight: 800;
   src: local('Infini Regular'),
     url('../fonts/MarvinVisions-Bold.woff2') format('woff');
+}
+@font-face {
+  font-family: 'Infini Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Infini Regular'),
+    url('../fonts/infini-romain.woff') format('woff');
+}
+
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/montserrat-v15-latin-900.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+    url('../fonts/montserrat-v15-latin-900.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/montserrat-v15-latin-900.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/montserrat-v15-latin-900.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/montserrat-v15-latin-900.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/montserrat-v15-latin-900.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
