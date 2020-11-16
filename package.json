@@ -1,0 +1,9 @@
+{
+  "name": "stride-magazine",
+  "version": "1.0.0",
+  "description": "Department Annual Magazine (MCA)",
+  "main": "index.js",
+  "repository": "https://github.com/rat9615/stride-magazine.git",
+  "author": "rohanr <rohanrathan21@gmail.com>",
+  "license": "MIT"
+}
