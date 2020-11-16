@@ -32,9 +32,10 @@ body {
   opacity: 1;
 }
 .responsive {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
+
 .image {
   margin-bottom: 4rem;
 }
@@ -994,7 +995,8 @@ fieldset[disabled] .btn-warning.active {
   margin-bottom: 6rem;
 }
 .main .motto,
-.main .subscribe .info-text {
+.main .subscribe .info-text,
+.image {
   font-size: 5vw;
   font-family: 'Infini Regular';
   font-style: italic;
@@ -1060,6 +1062,10 @@ fieldset[disabled] .btn-warning.active {
 @media (min-width: 768px) {
   .main .subscribe .form-inline .btn {
     width: auto;
+  }
+  .responsive-small {
+    max-width: 60%;
+    height: auto;
   }
 }
 @media (min-width: 991px) {
