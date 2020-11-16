@@ -23,6 +23,8 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.14"
+    "mongoose": "^5.10.14",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
   }
 }
