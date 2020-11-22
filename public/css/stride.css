@@ -14,6 +14,7 @@
  */
 
 body {
+  background-color: #000000;
 }
 .form-control::-moz-placeholder {
   color: #dddddd;
@@ -185,6 +186,27 @@ h3 .small {
 
 .github-link {
   margin-top: 4rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#download {
+  fill: #61de56;
+}
+
+#download:hover {
+  fill: #00bd48;
+}
+
+#suggestions {
+  fill: #1084ff;
+}
+
+#suggestions:hover {
+  fill: #1d62f0;
 }
 
 .tooltip.top .tooltip-inner {
@@ -1170,6 +1192,18 @@ fieldset[disabled] .btn-warning.active {
   }
   .title {
     margin-left: 0;
+  }
+
+  #download,
+  #suggestions {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 1rem;
+  }
+
+  .buttons {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 }
 @media (min-width: 991px) {
