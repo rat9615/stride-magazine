@@ -60,9 +60,22 @@
               style="enable-background: new 0 0 438.549 438.549"
               xml:space="preserve"
             >
-              <g>
-                <path
-                  d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+              <defs>
+                <linearGradient id="grd" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#ff9282"></stop>
+                  <stop offset="11%" stop-color="#e05050"></stop>
+                  <stop offset="22%" stop-color="#e8b71d"></stop>
+                  <stop offset="33%" stop-color="#e3e81d"></stop>
+                  <stop offset="44%" stop-color="#1de840"></stop>
+                  <stop offset="55%" stop-color="#1ddde8"></stop>
+                  <stop offset="66%" stop-color="#4d41ec"></stop>
+                  <stop offset="77%" stop-color="#e440f3"></stop>
+                  <stop offset="100%" stop-color="#e05bec"></stop>
+                </linearGradient>
+                <mask id="msk">
+                  <g fill="white">
+                    <path
+                      d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
       c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
       c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
       c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
@@ -82,7 +95,27 @@
       c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
       c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
       C438.536,184.851,428.728,148.168,409.132,114.573z"
-                />
+                    />
+                  </g>
+                </mask>
+              </defs>
+              <g style="mask: url(#msk)">
+                <rect
+                  x="-5000"
+                  y="0"
+                  width="10000"
+                  height="10000"
+                  fill="url(#grd)"
+                >
+                  <animateTransform
+                    attributeType="XML"
+                    attributeName="transform"
+                    type="translate"
+                    values="0,0; 5000,0; 0,0"
+                    dur="10s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
               </g></svg
           ></a>
         </div>

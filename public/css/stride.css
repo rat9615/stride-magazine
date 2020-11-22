@@ -59,14 +59,9 @@ input[type='file'] > input[type='button']::-moz-focus-inner {
 }
 
 svg {
-  fill: white;
   cursor: pointer;
   position: relative;
   z-index: 5;
-}
-
-svg:hover {
-  fill: gainsboro;
 }
 
 /*           Font Smoothing      */
@@ -1009,9 +1004,75 @@ fieldset[disabled] .btn-warning.active {
   font-weight: 300;
   position: relative;
   text-align: center;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
   z-index: 3;
+
+  background-image: linear-gradient(
+    124deg,
+    #ff9282,
+    #e05050,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #4d41ec,
+    #e440f3,
+    #e05bec
+  );
+  background-size: 1800% 1800%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
 }
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
 .main .logo.cursive {
   font-family: 'Marvin Visions';
   font-size: 29vw;
