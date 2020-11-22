@@ -15,6 +15,7 @@
 
 body {
   background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
 }
 .form-control::-moz-placeholder {
   color: #dddddd;
@@ -957,7 +958,8 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .main {
-  background-color: #141414;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
   background-position: center center;
   background-size: cover;
   height: auto;
