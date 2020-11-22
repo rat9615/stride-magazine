@@ -1020,6 +1020,14 @@ fieldset[disabled] .btn-warning.active {
   margin-top: 10px;
   width: 60px;
 }
+
+.stride-title {
+  animation: 1s ease-out 0.6s 1 fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  z-index: 5;
+}
+
 .main .logo {
   color: #ffffff;
   font-size: 56px;
@@ -1048,51 +1056,6 @@ fieldset[disabled] .btn-warning.active {
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
   animation: rainbow 18s ease infinite;
-}
-
-@-webkit-keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
-}
-@-moz-keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
-}
-@-o-keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
-}
-@keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
 }
 
 .main .logo.cursive {
@@ -1361,6 +1324,51 @@ fieldset[disabled] .btn-warning.active {
   100% {
     visibility: visible;
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
   }
 }
 
