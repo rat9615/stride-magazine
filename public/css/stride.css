@@ -66,7 +66,7 @@ svg {
 }
 
 svg:hover {
-  fill: #7fd5f5;
+  fill: gainsboro;
 }
 
 /*           Font Smoothing      */
@@ -191,6 +191,17 @@ h3 .small {
 .github-link {
   margin-top: 4rem;
 }
+
+.tooltip.top .tooltip-inner {
+  background-color: white;
+  color: #141414;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: white;
+}
+
 .btn {
   font-family: 'Montserrat';
   font-weight: 200;
