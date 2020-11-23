@@ -1,6 +1,8 @@
+html,
 body {
   background-color: #000000;
   background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  height: 100%;
 }
 .form-control::-moz-placeholder {
   color: #dddddd;
@@ -956,8 +958,6 @@ fieldset[disabled] .btn-warning.active {
 }
 
 .main {
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
   background-position: center center;
   background-size: cover;
   height: auto;
@@ -979,7 +979,8 @@ fieldset[disabled] .btn-warning.active {
   z-index: 1;
 }
 .cover.black {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #000000;
+  background-image: linear-gradient(357deg, #000000 0%, #263341 94%);
 }
 .cover.blue {
   background-color: rgba(5, 31, 60, 0.6);
@@ -1109,15 +1110,26 @@ fieldset[disabled] .btn-warning.active {
   z-index: 1;
 }
 
-.footer {
-  position: relative;
-  bottom: 20px;
-  right: 0px;
-  width: 100%;
+.views {
+  background-color: #1944af;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
   color: #aaaaaa;
-  z-index: 4;
-  text-align: right;
-  margin-top: 50px;
+  z-index: 5;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
 }
 .footer a {
   color: #ffffff;
@@ -1170,6 +1182,13 @@ fieldset[disabled] .btn-warning.active {
 
   .main .motto {
     letter-spacing: 10px;
+  }
+
+  .views {
+    font-size: 3rem;
+    padding: 1rem;
+    width: 6rem;
+    height: 6rem;
   }
 }
 @media (min-width: 991px) {
