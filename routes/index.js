@@ -17,7 +17,6 @@ db.once('open', () => {
 });
 
 router.get('/', async (req, res) => {
-  console.log(storage.values());
   const value = await storage.getItem('views');
   res.render('index', { views: value });
 });
