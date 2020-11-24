@@ -1,4 +1,4 @@
-
+![Stride](https://imagizer.imageshack.com/img922/5365/qJIbwc.png)
 ## Built With
 - [node.js](https://nodejs.org/en/)
 - [express.js](https://expressjs.com/)
